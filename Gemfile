@@ -8,6 +8,12 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
-gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'boostrap-sass'
+
+group :doc do
+	gem 'sdoc', '~> 0.4.0'
+end
+
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]

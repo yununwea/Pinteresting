@@ -31,6 +31,8 @@ GEM
     autoprefixer-rails (6.3.1)
       execjs
       json
+    boostrap-sass (0.0.2)
+      bootstrap-sass
     bootstrap-sass (3.3.5)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
@@ -115,7 +117,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  bootstrap-sass
+  boostrap-sass
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails

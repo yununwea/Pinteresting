@@ -8,7 +8,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'boostrap-sass'
+gem 'bootstrap-sass'
+gem 'coffee-script-source', '1.8.0'
 
 group :doc do 
 gem 'sdoc', '~> 0.4.0'
